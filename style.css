@@ -8,10 +8,7 @@ Ivory #FFFCF6
 
  body, html {
     background-color: white;
-=======
-body, html {
-    background-color: lightblue;
->>>>>>> c53f3cbb4de8d6008bbd35e74b869fd8eb63c17c
+  
     /* necessary attributes for header section */
     height: 100%;
     margin: 0px;
