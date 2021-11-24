@@ -183,7 +183,7 @@ section{
     padding:2rem 9%;
 }
 
-.home{
+.about us{
     display: flex,
     align-items: center;
     justify-content: center;
@@ -192,21 +192,21 @@ section{
     z-index: 0;
 }
 
-.home .content h2{
+.about us .content h2{
     font-size: 4.5rem;
     color: #fff;
     text-transform: uppercase;
     text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 
-.home .content h2{
+.about us .content h2{
     font-size: 2.5rem;
     color: #fff;
     padding: 5rem 0;
     text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
   
-  .home .controls{
+  .about us .controls{
     padding:1rem;
     border-radius: 5rem;
     background:rgba(0,0,0,.7);
