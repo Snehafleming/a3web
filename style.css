@@ -177,12 +177,7 @@ input[type=checkbox]{
 /*end JPowell 11/22/2021 Navigation Bar Style*/
 /********************************************************************************************************/
 
-
-
-
-
-
-
+/*Main Starts- Sneha Mohan*/
 
 section{
     padding:2rem 9%;
@@ -197,28 +192,19 @@ section{
     z-index: 0;
 }
 
-.home .content h3{
+.home .content h2{
     font-size: 4.5rem;
     color: #fff;
     text-transform: uppercase;
     text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 
-.home .content h3{
+.home .content h2{
     font-size: 2.5rem;
     color: #fff;
     padding: 5rem 0;
     text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
-
-.home .video-container video{
-    position: absolute;
-    top:0; left: 0;
-    z-index: -1;
-    height: 100%;
-    width:100%;
-    object-fit: cover;
-  }
   
   .home .controls{
     padding:1rem;
@@ -228,17 +214,4 @@ section{
     top:10rem;
   }
   
-  .home .controls .vid-btn{
-    height:2rem;
-    width:2rem;
-    display: inline-block;
-    border-radius: 50%;
-    background:#fff;
-    cursor: pointer;
-    margin:0 .5rem;
-  }
-  
-  .home .controls .vid-btn.active{
-    background:var(--orange);
-  }
   
