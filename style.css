@@ -137,8 +137,8 @@ header .navbar a:hover{
 
 .about__image {
     text-align: center
-    Height: 80%
-    width: 90%
+    Height 80%
+    width 90%
 }
 
 
@@ -229,7 +229,7 @@ header .navbar a:hover{
         border: 1px solid rgba(109, 109, 107, 0.3);
         box-shadow: 2px 2px 15px rgba(119, 104, 104, 0.3);
         color:#fff
-        padding: 60px;
+        padding 60px;
         
     }
 
