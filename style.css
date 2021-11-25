@@ -219,13 +219,8 @@ header .navbar a:hover{
   }
   
 /* Project Proposal */
-div {
-  border-radius: 5px;
-  background-color: none;
-  padding: 20px;
-}
 
-input[type=text], select {
+.register input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -235,7 +230,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+.register input[type=submit] {
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -249,6 +244,21 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+ .register .row form .inputBox input, .contact .row form textarea{
+    width:49%;
+    margin:1rem 0;
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    background:#f7f7f7;
+    text-transform: none;
+  }
+  
+  .register .row form textarea{
+    height: 15rem;
+    resize: none;
+    width:100%;
+  }
 
 
   
