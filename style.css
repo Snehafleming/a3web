@@ -219,6 +219,12 @@ header .navbar a:hover{
   }
   
 /* Project Proposal */
+div {
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -244,11 +250,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-div {
-  border-radius: 5px;
-  background-color: none;
-  padding: 20px;
-}
+
   
 
 /* Project Proposal ends */
