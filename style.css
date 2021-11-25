@@ -108,7 +108,7 @@ header .navbar a:hover{
   display: none;
 }
 
-.about{
+.home{
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -118,24 +118,24 @@ header .navbar a:hover{
   z-index: 0;
 }
 
-.about .content{
+.home .content{
   text-align: center;
 }
 
-.about .content h3{
+.home .content h3{
   font-size: 6rem;
   color:rgb(110, 123, 240);
   text-transform: uppercase;
   text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 
-.about .content p{
+.home .content p{
   font-size: 2.5rem;
   color:rgb(19, 9, 9);
   padding:.5rem 0;
 }
 
-.about__image {
+.home__image {
     text-align: center
     Height: 200px
     width: 50%
