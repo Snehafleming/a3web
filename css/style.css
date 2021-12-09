@@ -281,12 +281,7 @@ input[type=checkbox]{
     outline: none;
 }
 
-.main__btn a {
-    position: relative;
-    z-index: 2;
-    color: white;
-    
-}
+
 
 .main__btn a:hover {
     color: black;
