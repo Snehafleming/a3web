@@ -259,6 +259,19 @@ input[type=checkbox]{
 /*rem unit was used because all the sizes are referenced from the root font size, there is no more need to cover the nesting cases in separate declarations*/
 /*refrence taken from W3 schools*/
 
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
 
 
 .main__content h2 {
@@ -281,7 +294,12 @@ input[type=checkbox]{
     outline: none;
 }
 
-
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: white;
+    
+}
 
 .main__btn a:hover {
     color: black;
